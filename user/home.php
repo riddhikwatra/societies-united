@@ -31,7 +31,7 @@
                     <button type="submit" style="border:0px; cursor:pointer">
                         <div class="society-container" style="background-image:url(<?php echo $row['logo']?>)">
                             <div class="black-overlay">
-                                <h4 class="society-name"><?php echo $row['soc_name']?><?php echo $row['logo']?></h4>
+                                <h4 class="society-name"><?php echo $row['soc_name']?></h4>
                             </div>
                         </div>  
                     </button>
