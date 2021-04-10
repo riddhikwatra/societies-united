@@ -1,6 +1,6 @@
 <?php
     if(isset($_POST['submit'])){
-        ($db = mysqli_connect('localhost','root','','societies'))or die("connection failed");
+        ($db = mysqli_connect('us-cdbr-east-03.cleardb.com','b6d86e67174bc0','e37f64da','heroku_5f6762150a1eaa8'))or die("connection failed");
         $user=$_POST['username'];
         $pass=$_POST['password'];
         $query = $db->query("SELECT soc_name,soc_id FROM society where username='$user'and password ='$pass'");

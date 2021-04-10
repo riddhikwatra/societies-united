@@ -1,5 +1,5 @@
 <?php
-    ($db = mysqli_connect('localhost','root','','societies'))or die("connection failed");
+    ($db = mysqli_connect('us-cdbr-east-03.cleardb.com','b6d86e67174bc0','e37f64da','heroku_5f6762150a1eaa8'))or die("connection failed");
     $soc_name=$_GET['soc_name'];
     $query2 = $db->query("SELECT soc_id from society where soc_name='$soc_name'");
     while($row2 = $query2->fetch_assoc()){

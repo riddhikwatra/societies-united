@@ -2,7 +2,7 @@
 session_start();
 $count=$_POST['count'];
 $soc_id=$_SESSION['soc_id'];
-($db = mysqli_connect('localhost','root','','societies'))or die("connection failed");
+($db = mysqli_connect('us-cdbr-east-03.cleardb.com','b6d86e67174bc0','e37f64da','heroku_5f6762150a1eaa8'))or die("connection failed");
 while($count>0){
     $name=$_POST["name".(string)($count-1)];
     $position=$_POST["position".(string)($count-1)];

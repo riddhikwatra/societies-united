@@ -2,7 +2,7 @@
 if (session_status() == PHP_SESSION_NONE) {
   session_start();
 }
-($db = mysqli_connect('localhost','root','','societies'))or die("connection failed");
+($db = mysqli_connect('us-cdbr-east-03.cleardb.com','b6d86e67174bc0','e37f64da','heroku_5f6762150a1eaa8'))or die("connection failed");
 if(isset($_POST['submit'])){
     $event_name=$_POST['event_name'];
     $event_desc=$_POST['event_desc'];
