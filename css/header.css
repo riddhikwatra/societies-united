@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+	background: #1f33211e;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.body-overlay{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.navbar a, .sub-navbar a, .admin-options ul a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+.pointer {cursor: pointer;}
+
+.navbar{
+    float: left;
+    background-color:rgb(26, 24, 24);
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;  
+    z-index: 99; 
+    padding: 0;
+}
+
+#menu{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+}
+
+.navbar ul{
+    margin-top: 40px;
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+.navbar ul li{
+    padding: 13px;
+    padding-left: 30px;
+}
+
+#close{
+    font-size: large;
+    float: right;
+    margin: 10px;
+    color: white;
+}
+
+.sub-navbar{
+    position: absolute;
+    background-color:rgb(26, 24, 24);
+    width: 200px;
+    height: 80vh;
+    /* position: fixed; */
+    top: 60px;
+    left: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border:1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sub-navbar hr{
+    margin: 0;
+    opacity: 0.2;
+}
+
+.submenu-arrow{
+    font-size: 12px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 6px;
+    margin: 0;
+    float: right;
+}
+
+.nav-item{
+    text-align: left;
+    padding: 14px 10px;
+}
+
+.header{
+    background-color: #d2ecc8;
+    font-family: 'Times New Roman', Times, serif !important;
+    text-align: center !important;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    height: 18%;
+}  
+
+.signin-button{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    color: rgb(26, 24, 24);
+    font-size: 35px;
+}
+
+/* .signin-button p{
+    margin: 0;
+    font-size: 14px;
+} */
+
+.admin-options{
+    background-color:rgb(26, 24, 24);
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    right: 35px ;
+    top: 58px;
+    width: 150px;
+    text-align: center;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.admin-options ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-options ul li{
+    padding: 11px 8px;
+}
+
+.admin-options ul hr, .navbar ul hr{
+    border-color: rgba(255, 255, 255, 0.1);
+    margin: 0;
+}
+
+.admin-options ul li:hover, .navbar ul li:hover, .nav-item:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+/* .fix-header{
+    position: fixed;
+} */
+
+.inline-block{
+    display: inline-block;
+    vertical-align: inherit;
+}
+
+.logo_img{
+    /* height: 100px;
+    width: 105px; */
+    height: 80px;
+    width: 83px;
+}
+
+.igdtuw{
+    text-align: center;
+    color: #164A41;
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.sub-heading1{
+    color: #164A41; 
+    margin: 8px;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.sub-heading2{
+    color: #164A41;
+    margin: 0;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.logo-div, .head-div{
+    vertical-align: middle;
+}
+
+.head-div{
+    margin: 15px;
+}
+
+.page-head{
+    margin: 20px 0;
+    text-align: center;
+    color: #3C403D;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+}

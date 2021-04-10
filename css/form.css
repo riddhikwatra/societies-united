@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?Roboto:wght@400;500;900&display=swap');
+
+* { box-sizing:border-box; 
+    /* font-family: 'Roboto', sans-serif; */
+  }
+
+/* basic stylings ------------------------------------------ */
+body{
+	background-color: #ffffff;
+  background-image: linear-gradient(20deg, #d8f7df 40%,#DADED4 60%);
+}
+
+.form-container 		{ 
+  font-family:'Roboto';
+  width:70vw; 
+  margin: 10vh auto; 
+  display:block; 
+  background: rgba(255,255,255,0.8);
+  padding:10px 50px 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.page-heading{    
+  font-size: 34px;
+  text-align:center; 
+  margin:40px 0; 
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.form-subheading{
+    font-size: 13px;
+    color: #757575;
+    font-weight: 500;
+    margin: 3% 0 3% 0;
+}
+
+/* form starting stylings ------------------------------- */
+.group 			  { 
+  position:relative; 
+  margin-bottom:25px; 
+}
+
+input[type=text], input[type=date], input[type=tel], select, option{
+  font-size:15px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:100%;
+  border: none;
+  background: rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+input[type=text]:focus 		{ outline:none;}
+
+/* LABEL ======================================= */
+label 				 {
+  color:#777; 
+  font-size:16px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:10px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input[type=text]:focus ~ label, input[type=tel]:focus ~ label, input[type=date] ~ label, input[type=text]:valid ~ label, 
+input[type=tel]:valid ~ label, select ~ label {
+  top:-18px;
+  font-size:12px;
+  font-weight: 500;
+  color: #678681;
+  padding: 0 3px;
+}
+
+textarea:focus ~ label, textarea:valid ~ label{
+  top:-10px;
+  font-size:12px;
+  font-weight: 500;
+  color: #678681;
+  padding: 0 3px;
+  left: 20px;
+}
+
+/* active state */
+input[type=text]:focus ~ .bar:before, input[type=text]:focus ~ .bar:after {
+  width:50%;
+}
+
+input[type=file]{
+  opacity: 0;
+}
+
+input[type=file] ~ label{
+  font-size:15px;
+  margin: -10px;
+  padding: 10px 10px 10px 5px;
+  display:block;
+  width:100%;
+  border: none;
+  background: rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+input[type=file]:focus ~ label, input[type=file]:valid ~ label{
+  font-weight: 500;
+  color: #678681;
+}
+
+.form-button{
+    border-radius: 5px;
+    padding: 1% 3%;
+    outline: none;
+    border: none;
+    background-color:#546e7a;
+    /* button color */
+    color: #fff;
+    float: right;
+    margin: 3% 1%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+textarea{
+  width: 100%;
+  font-size:15px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  max-width: 100%;
+  border: none;
+  background: rgba(0,0,0,0.1);
+  border-radius: 5px;
+  max-height: 120px;
+  height: 120px;
+}
+
+textarea ~ label{
+  font-size:15px;
+  margin: -10px;
+  padding: 10px 10px 10px 5px;
+  display:block;
+  width:100%;
+  border: none;
+  background: rgba(0,0,0,0);
+  border-radius: 5px;
+}

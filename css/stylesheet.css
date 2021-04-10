@@ -1,0 +1,353 @@
+Stylesheet.css
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:#ffffff;
+  text-align: center;
+}
+
+#lineicon div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 8px 95px;
+}
+
+.container-soc1{
+  margin-left: 200px;
+}
+
+.main-container{
+  background-color: #DADED4;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.desc{
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.0cm;
+  margin: 20px;
+}
+
+.sidenav {
+  height: 82%;
+  width: 200px;
+  position: fixed;
+  top: 18%;
+  left: 0;
+  background-color:#4D774E ;
+  overflow-y: scroll;
+  padding-bottom: 21px;
+  padding-top: 10px;
+  /* flex: 20%;   */
+}
+
+.element{
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 12px; */
+}
+
+.sidenav a {
+  padding: 0px;
+  padding-left: 5px;
+  line-height: 1.1;
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.element:hover {
+  color: #9dc88d;
+  background-color:  rgba(255, 255, 255, 0.4);
+
+}
+
+.sidenav hr{
+  margin: 0;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #4D774E;
+}
+
+a {
+  padding: 0%;
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.main {
+  margin-left: 170px; /* Same as the width of the sidenav */
+  margin-right: 0px;
+  font-size: 16px; /* Increased text to enable scrolling */
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  top: 200px;
+  left: 200px;
+  background-color: white;
+}
+
+.navigation{
+  margin-left: 170px;
+}
+
+.container {
+  width: 100%;
+  padding: 0px 0px;
+  margin-left: 17px; 
+}
+
+.containerr {
+  padding: 5px 15px;
+  margin: 10px 20px 10px 20px;
+  align-self: center;
+  background-color: rgb(247, 230, 230);
+}
+
+.containerr b{
+  color: white;
+}
+
+.containerr h1
+{
+  color: black;
+  font-size: 1000em;
+}
+
+.information{
+  text-align: center;
+}
+
+.top-wrapper {
+  width:100%;
+  padding: top 0;
+  padding-left: 0px;  
+  background-position: contain ;
+  background-repeat: no-repeat;
+  text-align: center;
+  opacity: 1;
+  flex:80%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 79px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+  margin-bottom: 3px;
+  font-size: 20px;
+  color: black;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #F1B24A;
+}
+
+.signin {
+  background-color: #F1B24A;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-left: 0px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #A3BCB6;
+    background-color: #d2ecc8;
+    font-family: 'Times New Roman', Times, serif !important;
+    text-align: center !important;
+    padding: 4px;
+    position: fixed;
+    z-index: 1;
+}
+
+.navigation{
+  overflow: hidden;
+  background-color: rgb(125, 146, 116);
+  padding-left: 200px;
+  padding-bottom:4px;
+  margin: 0px;
+  z-index: 0;
+  align-self: center;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.nav-right{
+  padding-bottom: 10px;
+  padding-right: 20px;
+  float:right;
+}
+
+/* Add CSS for menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Change the display property to none */
+  display:none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  /*margin-top: -100px;
+  top: -200px;*/
+  padding-left: 40%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.bar p{
+  color:rgb(14, 39, 8);
+  margin-left:340px;
+  text-align: left ;
+
+}
+
+.bar textarea{
+  font: timesnewroman;
+  font-size: 20px; 
+   background:white;
+   color: black;
+   margin-top:-140px;
+   margin-left:190px;
+}
+
+#disc{
+  margin-left: auto;
+ margin-top: 10px; 
+ position: center;
+}
+
+.buttons{
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  background-color:#405f4c;
+  /* button color */
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.view-options{
+  width: 100%;
+  text-align: center;
+}
+.option{
+  display: inline-block;
+}

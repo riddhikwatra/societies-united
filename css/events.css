@@ -1,0 +1,91 @@
+
+.main-container{
+    padding: 20px 150px 0px 150px;
+    background-color: white;
+}
+
+.grid-container {
+    grid-template-columns: 0.4fr 1fr;
+    margin-top:10px;
+    display: grid;
+    grid-gap: 15px;
+    background-color: #DADED4;
+    padding: 20px 20px 20px 20px ;
+    border-radius: 20px;
+    margin-bottom:50px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 255);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: justify;
+  }
+  
+  .item1 {
+    margin-top:7px;
+    margin-bottom: 6px;
+    margin-left: 4px;
+    grid-column: 1/span 1 ;
+    grid-row: 1 /span 15 ;
+  }
+  
+  .item2 {
+
+    margin-top:10px;
+    margin-right: 4px;
+    grid-column: 2 /span 4;
+    grid-row: 1 / span 0 ;
+  }
+  
+  .item3{
+   
+    margin-right: 4px;
+    grid-column: 2 /span 4;
+    grid-row: 2 / span 10;
+  }
+  
+  .item4{
+   
+    margin-right: 4px;
+    grid-column: 2 /span 4;
+    grid-row: 3 / span 0;
+  }
+  
+  .item5 {
+  
+    margin-bottom: 4px;
+    margin-right: 4px;
+    grid-column: 2 /span 4;
+    grid-row: 4 / span 0;
+    text-align: center;
+  }
+  
+  .item6 {
+  
+    margin-bottom: 4px;
+    margin-right: 4px;
+    grid-column: 2 /span 4;
+    grid-row: 4 / span 0;
+  }
+  
+  .item7 {
+    
+    margin-bottom: 6px;
+    margin-right: 4px;
+    grid-column: 2 /span 4;
+    grid-row: 4 / span 0;
+  }
+  .buttons{
+    border-radius: 8px;
+    padding: 5px 5px 8px 5px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    background-color:#4e6b59;
+    /* button color */
+    color: rgb(255, 255, 255);
+    margin: 10px 0px 5px 0px;
+    cursor: pointer;
+  }

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap');
+
+.container-fluid.main{
+    position: relative; /* To make the navbar positions relative to this container */
+    padding: 0;
+    height: 100vh;
+}
+
+a:hover {
+    text-decoration: none ; 
+    color: rgb(136, 136, 136);
+}
+
+.link1{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    z-index: 99;
+    font-weight: bolder;
+    color: white;
+    font-size: 18px;
+}
+
+.link2{
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    z-index: 99;
+    font-weight: bolder;
+    color: white;
+    font-size: 18px;
+}
+
+.signin-button{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    z-index: 99;
+}
+
+.carousel .background {
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.carousel .background.a {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/igdtuw.jpg");
+}
+
+.carousel .background.b {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/igdtuw 6.png");
+}
+
+.carousel .background.c {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/igdtuw 4.png");
+}
+
+.carousel .background.d {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/igdtuw 5.png");
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition: opacity 0.5s; /* The 0.5s describes the duration to make the opacity from 0 to 1 */
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner > .item.prev,
+.carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.carousel-fade .carousel-inner > .item.next.left,
+.carousel-fade .carousel-inner > .item.prev.right,
+.carousel-fade .carousel-inner > .item.active {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/* CSS Hack to trigger GPU for smooth transition */
+
+.covertext {
+    position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
+    top: 200px; /* The distance between the div with the top of document */
+    left: 0px; /* Make the div full width */
+    right: 0px; /* Make the div full width */
+}
+
+.title {
+    font-family: 'Noto Sans', sans-serif;;
+    font-weight: 700;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: Verdana;
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.explore {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.explore .btn-lg,
+.explore .btn-lg:hover {
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-size: 22px;
+    background-image: none;
+    background-color: #33691e;
+    border-color: #33691e;
+    color: #ffffff;
+}

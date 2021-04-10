@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+h2{
+    text-align: center;
+    color: #3C403D;
+}
+
+.grid {
+    margin-left: 3.6rem;
+    margin-right: 3.6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 3rem;
+    justify-content: space-evenly;
+}
+
+.valign{
+    vertical-align: middle;
+}
+
+.max-logo-size{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.div{
+    background: #EDE7F6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.container{
+    background-color:  #e0eeda;
+    margin: 30px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.aligned-text{
+    text-align: center;
+}
+
+.society-container{
+    height: 175px;
+    width: 25vw;
+    border-radius: 1rem;
+}
+
+.black-overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 175px;
+    width: 25vw;
+    border-radius: 1rem;
+}
+
+.society-name{
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+}

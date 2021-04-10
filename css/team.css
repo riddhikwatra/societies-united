@@ -1,0 +1,95 @@
+.buttons{
+    border-radius: 8px;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    background-color:#4e6b59;
+    /* button color */
+    color: rgb(255, 255, 255);
+    margin: 10px 0px 5px 0px;
+    cursor: pointer;
+  }
+
+  .add-team-button{
+    font-size: 18px;
+  }
+
+.image{
+      width: 220px;
+      height: 220px;
+      border-radius: 10px 10px 0px 0px; 
+      margin: 0px 0px 0px 0px; 
+      position: relative;
+  }
+
+.member{
+    position: relative;
+    /* border: 1px solid rgb(92, 96, 100); */
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 25px;
+    width: 222px !important;
+    max-width: 222px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+  }
+
+.text{
+    width: 200px;
+    height: inherit;
+    position: relative;
+    color: rgb(8, 57, 73);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.main-container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 20px 30px;
+    text-align: center;
+    /* margin: auto; */
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin: auto;
+}
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.red{
+  background-color: #f12516;
+}
