@@ -29,7 +29,7 @@
         ?>      
                 <form action="society.php" method="GET">
                     <button type="submit" style="border:0px; cursor:pointer">
-                        <div class="society-container" style="background-image:url('../images/<?php echo $row['logo']?>')">
+                        <div class="society-container" style="background-image:url('../images/<?php echo $row['logo']?>'); background-repeat: no-repeat, repeat;background-size: cover;">
                             <div class="black-overlay">
                                 <h4 class="society-name"><?php echo $row['soc_name']?></h4>
                             </div>
