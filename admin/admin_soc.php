@@ -29,7 +29,7 @@
 			$query1 = $db->query("SELECT * FROM society where soc_name='$soc_name'");
 			while($row1 = $query1->fetch_assoc()){
 		?>
-		<img src=<?php echo $row1['logo'];?> max-width="300" height="300" style="">
+		<img src="../images/<?php echo $row1['logo'];?>" max-width="300" height="300" style="">
 		<div class="bar">
 			<div class="desc">
 				<?php echo $row1['about'] ?>
